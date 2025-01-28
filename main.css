@@ -88,7 +88,7 @@
     background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
     box-shadow: 1px 1px 10px #363434;
     border-radius: 15px;
-    margin: 20px;
+    margin: 2vw;
     padding: 2vw;
   }
   #projects{
@@ -96,16 +96,16 @@
     background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
     box-shadow: 1px 1px 10px #363434;
     border-radius: 15px;
-    margin: 20px;
     padding: 2vw;
+    margin: 2vw;
   }
   #satisfaction{
     width: 33.3333%;
     background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
     box-shadow: 1px 1px 10px #363434;
     border-radius: 15px;
-    margin: 20px;
     padding: 2vw;
+    margin: 2vw;
   }
 
   #experiance_heading{
