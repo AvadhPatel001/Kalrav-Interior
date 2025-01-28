@@ -10,20 +10,25 @@
 
 #logo{
   position: absolute;
-  top: 10px;
+  top: 1.5vw;
   left: 50%;
   transform: translate(-50%);
   width: 30%;
 }
+
 
 /* navbar css */
   
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;     
+    justify-content: space-between;
     width: 90%;
-    padding: 6vw 5%;
+
+    position: absolute;
+    top: 6vw;
+    left: 50%;
+    transform: translate(-50%);
   }
   
   .navbar ul {
@@ -34,13 +39,13 @@
   }
   
   .navbar ul li {
-    margin: 0 8%;
+    margin: 0 5%;
   }
   
   .navbar ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-weight: bold;
   }
   
@@ -61,3 +66,68 @@
     justify-content: flex-end;
   }
   
+  /* navbar */
+
+  /* Statistics */
+  .statistics{
+
+    position: absolute;
+    top: 50vw;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: rgb(210, 214, 218); */
+  }
+
+  #experiance{
+    width: 33.3333%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+  }
+  #projects{
+    width: 33.3333%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+  }
+  #satisfaction{
+    width: 33.3333%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+  }
+
+  #experiance_heading{
+    font-size: 2.5vw;
+  }
+  #project_heading{
+    font-size: 2.5vw;
+  }
+  #satisfaction_heading{
+    font-size:2.5vw;
+  }
+
+  #NoOfYears{
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  #NoOfProject{
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  #satisfaction_percntage{
+    font-size: 5vw;
+    font-weight: bold;
+  }
