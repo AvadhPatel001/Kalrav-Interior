@@ -4,100 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalrav Interior</title>
-
-    <style>
-        body{
-            background-color: rgb(224, 245, 238);
-        }
-        #logo{
-            position: absolute;
-            top: 1%;
-            left: 50%;
-            transform: translate(-50%);
-        }
-        #heading{
-            margin-top:10.5vw;
-            display: flex;
-            justify-content: center;
-            font-size: 3vw;
-            color: rgb(75, 14, 133);
-           
-        }
-        #message{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%);
-        }
-        #message h1{
-            color: rgb(56, 51, 51);
-            font-family: sans-serif;
-
-        }
-
-        footer{
-            text-align: center;
-            position: fixed;
-            bottom: 0; 
-            left: 0;
-            width: 100%; 
-        }
-        .icons{
-            position: absolute;
-            bottom: 10%;
-            left: 50%;
-            transform: translate(-40%);
-
-        }
-        .icons img{
-            height: 50%;
-            width: 50%;
-        }
-        .item{
-            display: inline-block; 
-        }
-     
-        #lower{
-            background-color: #141414;
-            padding: 1%;
-        }
-        #copyright{
-            color: aliceblue;
-        }
-        #designed{
-            color: rgb(160, 159, 159);
-        }
-    
-
-    </style>
-    
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div id="logo">
-        <img style="height: 10vw;;" src="Images/logo.png" alt="logo of Kalrav Interior">
+    <div class="frotIMG">
+        <img src="Images/mainIMG.jpg" alt="Kalrav Interior" id="mainIMG">
+        <img src="Images/logo.png" alt="Logo" id="logo">
+        <!-- navbar -->
+        <nav class="navbar">
+            <ul class="navbar-left">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+            <ul class="navbar-right">
+              <li><a href="#">Expertise</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        
     </div>
-    <h1 id="heading">INTERIOR DESIGN STUDIO</h1>
-    <div id="message">
-        <h1>Coming Soon...</h1>
-    </div>
-
-    <div class="icons">
-        <div class="item">
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="icons/insta.png" alt="email"></a>
-        </div>
-        <div class="item">
-            <a href="https://www.facebook.com/" target="_blank"><img src="icons/facebook.png" alt="facebook"></a>
-        </div>
-        <div class="item">
-            <a href="https://x.com/?lang=en&mx=2" target="_blank"><img src="icons/x.png" alt="facebook"></a>
-        </div>
-    </div>
-
-    <footer>
-        <div id="lower">
-            <label id="copyright">Copyright &copy;2025; Designed by</label>
-            <label id="designed">&nbsp;ALPHA TECH</label>
-        </div>
-    </footer>
 </body>
 </html>
