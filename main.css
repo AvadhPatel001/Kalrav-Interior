@@ -131,7 +131,7 @@
   .owners{
     width: 90%;
     position: absolute;
-    top: 100vw;
+    top: 110vw;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -139,7 +139,7 @@
   }
 
   .owners img{
-    width: 50%;
+    width: 70%;
   }
 
   #name{
