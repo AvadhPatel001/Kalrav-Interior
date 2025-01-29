@@ -4,7 +4,7 @@
     top: 2.5vw;
     left: 50%;
     transform: translate(-50%);
-    border-radius: 2%;
+    border-radius: 1vw;
     z-index: -1;
 }
 
@@ -69,7 +69,7 @@
 /* navbar */
 
 /* Statistics */
-  .statistics{
+  #statistics{
 
     position: absolute;
     top: 53vw;
@@ -86,8 +86,8 @@
   .statistics_box{
     width: 33.3333%;
     background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
-    box-shadow: 1px 2px 15px #b3afaf;
-    border-radius: 10%;
+    box-shadow: 1px 2px 5px #b3afaf;
+    border-radius: 2vw;
     margin: 2%;
     padding: 2.5%;
   }
@@ -106,7 +106,7 @@
 
   .message{
     position: absolute;
-    top: 72vw;
+    top: 75vw;
     left: 50%;
     transform: translate(-50%);
     width: 80%;
@@ -119,9 +119,9 @@
   }
 
   #message_text{
-    font-size: 2.2vw;
+    font-size: 2vw;
     text-align: justify;
-    line-height: 4vw;
+    line-height: 3vw;
   }
 
 /* message */
@@ -131,7 +131,7 @@
   .owners{
     width: 90%;
     position: absolute;
-    top: 100vw;
+    top: 101vw;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -139,7 +139,10 @@
   }
 
   .owners img{
-    width: 70%;
+    width: 50%;
+    border: 2vw solid rgb(235, 235, 235);
+    box-shadow: 1px 2px 5px #b3afaf;
+    border-radius: 3vw;
   }
 
   #name{
@@ -147,10 +150,119 @@
     list-style: none;
     font-weight: bold;
     font-size: 2.5vw;
+    margin-top: 1vw;
   }
 
   #position{
     font-size: 2vw;
-    text-align: justify;
-    width: min-content;
+    line-height: 2.5vw;
+    margin-top: 0px;
   }
+
+/* Owners */
+
+/* Vision & Mission */
+
+  .outerBox{
+    width: 90%;
+    position: absolute;
+    top: 150vw;
+    left: 50%;
+    transform: translate(-50%);
+
+    background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
+    box-shadow: 1px 2px 5px #b3afaf;
+    border-radius: 1vw;
+
+    padding: 1vw 2vw 1vw 2vw;
+  }
+
+  #mission, #vision{
+    display: flex;
+    height: 50%;
+    margin: 3vw;
+  }
+
+  .outerBox img{
+    width: 30%;
+    height: fit-content;
+    box-shadow: 1px 2px 5px #b3afaf;
+    border-radius: 2%;
+  }
+
+  #mission_text{
+    width: 70%;
+    padding-left:2vw;
+    margin-top: -2vw;
+  }
+
+  #vision_text{
+    width: 70%;
+    padding-right:2vw;
+    margin-top: -2vw;
+  }
+
+  .outerBox p{
+    text-align: justify;
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-top: -2vw;
+  } 
+
+  .outerBox h2{
+    font-size: 3vw;
+    font-weight: bolder;
+  }
+
+  .outerBox h4{
+    font-size: 2.5vw;
+    margin-top: -2vw;
+    font-weight: 500;
+  }
+
+/* Vision & Mission */
+
+/* Services */
+
+  #services{
+    position: absolute;
+    top: 235vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    padding: 4vw;
+  }
+
+  #services_heading{
+    font-size: 4vw;
+    text-decoration: underline;
+  }
+  
+  #services_brief{
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: justify;
+  }
+
+  .pro_plan_exe{
+    position: absolute;
+    top: 255vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    padding-top: 6vw;
+    display: flex;
+
+  }
+
+  #project_planning{
+    width: 40%;
+    height: fit-content;
+  }
+
+  #project_Execution{
+    width: 40%;
+    height: fit-content;
+    margin-left: 16vw;
+  }
+/* Services */
