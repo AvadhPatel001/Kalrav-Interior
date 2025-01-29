@@ -131,7 +131,7 @@
   .owners{
     width: 90%;
     position: absolute;
-    top: 105vw;
+    top: 100vw;
     left: 50%;
     transform: translate(-50%);
     display: flex;
