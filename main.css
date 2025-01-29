@@ -83,7 +83,7 @@
     text-align: center;
   }
 
-  #experiance{
+  .statistics_box{
     width: 33.3333%;
     background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
     box-shadow: 1px 2px 15px #b3afaf;
@@ -91,42 +91,31 @@
     margin: 2%;
     padding: 2.5%;
   }
-  #projects{
-    width: 33.3333%;
-    background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
-    box-shadow: 1px 2px 15px #b3afaf;
-    border-radius: 10%;
-    padding: 2.5%;
-    margin: 2%;
+  
+  .statistics_heading{
+    font-size: 2vw;
   }
-  #satisfaction{
-    width: 33.3333%;
-    background-image: linear-gradient(to bottom right, #daeaff, #ffebd8);
-    box-shadow: 1px 2px 15px #b3afaf;
-    border-radius: 10%;
-    padding: 2.5%;
-    margin: 2%;
+  
+  .statistics_numbers{
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  
+  .message{
+    position: absolute;
+    top: 72vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    text-align: center;
   }
 
-  #experiance_heading{
-    font-size: 80%;
-  }
-  #project_heading{
-    font-size: 80%;
-  }
-  #satisfaction_heading{
-    font-size: 80%;
+  #message_heading{
+    font-size: 3vw;
+    font-weight: bold;
   }
 
-  #NoOfYears{
-    font-size: 5vw;
-    font-weight: bold;
-  }
-  #NoOfProject{
-    font-size: 5vw;
-    font-weight: bold;
-  }
-  #satisfaction_percntage{
-    font-size: 5vw;
-    font-weight: bold;
+  #message_text{
+    font-size: 2vw;
+    text-align: justify;
   }
