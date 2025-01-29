@@ -17,7 +17,7 @@
 }
 
 
-/* navbar css */
+/* navbar */
   
 .navbar {
     display: flex;
@@ -66,9 +66,9 @@
     justify-content: flex-end;
   }
   
-  /* navbar */
+/* navbar */
 
-  /* Statistics */
+/* Statistics */
   .statistics{
 
     position: absolute;
@@ -100,7 +100,10 @@
     font-size: 5vw;
     font-weight: bold;
   }
-  
+/* statistics   */
+
+/* message */
+
   .message{
     position: absolute;
     top: 72vw;
@@ -119,4 +122,35 @@
     font-size: 2.2vw;
     text-align: justify;
     line-height: 4vw;
+  }
+
+/* message */
+
+/* Owners */
+
+  .owners{
+    width: 90%;
+    position: absolute;
+    top: 100vw;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    text-align: center;
+  }
+
+  .owners img{
+    width: 50%;
+  }
+
+  #name{
+    display: list-item;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+
+  #position{
+    font-size: 2vw;
+    text-align: justify;
+    line-height: 2vw;
   }
