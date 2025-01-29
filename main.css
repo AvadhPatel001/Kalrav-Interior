@@ -131,7 +131,7 @@
   .owners{
     width: 90%;
     position: absolute;
-    
+    top: 110vw;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -152,5 +152,5 @@
   #position{
     font-size: 2vw;
     text-align: justify;
-    line-height: 2vw;
+    width: min-content;
   }
