@@ -388,12 +388,12 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      clip-path: circle(0% at 0 50%);
+      opacity: 0;
     }
 
     .slider111 .slide111.active{
-      clip-path: circle(150% at 0 50%);
-      transition: 1s;
+      opacity: 1;
+      transition: opacity 2s ease;
     }
 
     .slider111 .slide111 img{
@@ -469,12 +469,12 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    clip-path: circle(0% at 0 50%);
+    opacity: 0;
   }
 
   .slider222 .slide222.active{
-    clip-path: circle(150% at 0 50%);
-    transition: 1s;
+    opacity: 1;
+    transition: opacity 2s ease;
   }
 
   .slider222 .slide222 img{
@@ -551,12 +551,12 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    clip-path: circle(0% at 0 50%);
+    opacity: 0;
   }
 
   .slider333 .slide333.active{
-    clip-path: circle(150% at 0 50%);
-    transition: 1s;
+    opacity: 1;
+    transition: opacity 2s ease;
   }
 
   .slider333 .slide333 img{
@@ -620,3 +620,107 @@
   /* slider333 */
 
 /* expertise */
+
+
+/* Carrier collaboration  */
+
+  #carrier_collaboration_heading{
+    position: absolute;
+    top: 463vw;
+    left: 50%;
+    transform: translate(-50%);
+    text-decoration: underline;
+    font-size: 3.5vw;
+  }
+
+  #outer_box_of_collaboration{
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 472vw;
+    left: 50%;
+    transform: translate(-50%);
+    overflow-x: hidden;
+    width: 80%;
+  }
+  .carrier_collaboration{
+    display: flex;
+    animation: slide 10s linear infinite;
+  }
+
+
+  .carrier_collaboration img{
+    height: 10vw;
+    width: 100%;
+    margin: 0 5vw;
+    
+  }
+
+  @keyframes slide {
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+  }
+/* Carrier collaboration  */
+
+
+/* form */
+
+  #main_form_div{
+    position: absolute;
+    top: 484vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+  }
+  #main_form_div h1{
+    font-size: 4vw;
+    font-weight: normal;
+    text-align: center;
+  }
+  #main_form_div p{
+    font-size: 2vw;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -1.2vw;
+  }
+  #form_responce{
+    font-size: 2vw;
+    color: #103017;
+    margin-top: 7vw;
+    text-align: center;
+  }
+
+
+
+  input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 1vw 0;
+  }
+  button {
+      background: #28a745;
+      color: white;
+      padding: 1.5vw;
+      border: none;
+      width: 40%;
+      border-radius: 1vw;
+      cursor: pointer;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 2vw;
+  }
+  button:hover {
+      background: #218838;
+  }
+  .error {
+      color: red;
+      font-size: 1.5vw;
+  }
+
+/* form */

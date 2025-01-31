@@ -4,27 +4,29 @@ const slider111 = document.querySelector(".slider111");
 const prevBtn111 = document.querySelector(".prev-btn111");
 const nextBtn111 = document.querySelector(".next-btn111");
 const slides111 = document.querySelectorAll(".slide111");
-const slideIcon111 = document.querySelectorAll(".slide-icon111");
+const slideIcons111 = document.querySelectorAll(".slide-icon111");
 const numberOfSlides111 = slides111.length;
-var slideNmner111 = 0;
+var slideNumber111 = 0;
 
 // next Btn
+
+
 
 nextBtn111.addEventListener("click", () => {
     slides111.forEach((slide111) => {
         slide111.classList.remove("active");
     });
-    slideIcon111.forEach((slideIcon111) => {
+    slideIcons111.forEach((slideIcon111) => {
         slideIcon111.classList.remove("active");
     });
 
-    slideNmner111++;
-    if(slideNmner111 > (numberOfSlides111 - 1)){
-        slideNmner111 = 0;
+    slideNumner111++;
+    if(slideNumber111 > (numberOfSlides111 - 1)){
+        slideNumber111 = 0;
     }
 
-    slides111[slideNmner111].classList.add("active");
-    slideIcon111[slideNmner111].classList.add("active");
+    slides111[slideNumber111].classList.add("active");
+    slideIcons111[slideNumber111].classList.add("active");
 });
 
 // next Btn
@@ -35,17 +37,17 @@ prevBtn111.addEventListener("click", () => {
     slides111.forEach((slide111) => {
         slide111.classList.remove("active");
     });
-    slideIcon111.forEach((slideIcon111) => {
+    slideIcons111.forEach((slideIcon111) => {
         slideIcon111.classList.remove("active");
     });
 
-    slideNmner111--;
-    if(slideNmner111 < 0){
-        slideNmner111 = numberOfSlides111 - 1;
+    slideNumber111--;
+    if(slideNumber111 < 0){
+        slideNumber111 = numberOfSlides111 - 1;
     }
 
-    slides111[slideNmner111].classList.add("active");
-    slideIcon111[slideNmner111].classList.add("active");
+    slides111[slideNumber111].classList.add("active");
+    slideIcon111[slideNumber111].classList.add("active");
 });
 
 //prv Btn
@@ -59,17 +61,17 @@ prevBtn111.addEventListener("click", () => {
             slides111.forEach((slide111) => {
                 slide111.classList.remove("active");
             });
-            slideIcon111.forEach((slideIcon111) => {
+            slideIcons111.forEach((slideIcon111) => {
                 slideIcon111.classList.remove("active");
             });
         
-            slideNmner111++;
-            if(slideNmner111 > (numberOfSlides111 - 1)){
-                slideNmner111 = 0;
+            slideNumber111++;
+            if(slideNumber111 > (numberOfSlides111 - 1)){
+                slideNumber111 = 0;
             }
         
-            slides111[slideNmner111].classList.add("active");
-            slideIcon111[slideNmner111].classList.add("active");  
+            slides111[slideNumber111].classList.add("active");
+            slideIcons111[slideNumber111].classList.add("active");  
         }, 3000);
     }
     repeater111();
@@ -97,7 +99,7 @@ const nextBtn222 = document.querySelector(".next-btn222");
 const slides222 = document.querySelectorAll(".slide222");
 const slideIcon222 = document.querySelectorAll(".slide-icon222");
 const numberOfSlides222 = slides222.length;
-var slideNmner222 = 0;
+var slideNumber222 = 0;
 
 // next Btn
 
@@ -109,13 +111,13 @@ nextBtn222.addEventListener("click", () => {
         slideIcon222.classList.remove("active");
     });
 
-    slideNmner222++;
-    if(slideNmner222 > (numberOfSlides222 - 1)){
-        slideNmner222 = 0;
+    slideNumber222++;
+    if(slideNumber222 > (numberOfSlides222 - 1)){
+        slideNumber222 = 0;
     }
 
-    slides222[slideNmner222].classList.add("active");
-    slideIcon222[slideNmner222].classList.add("active");
+    slides222[slideNumber222].classList.add("active");
+    slideIcon222[slideNumber222].classList.add("active");
 });
 
 // next Btn
@@ -130,13 +132,13 @@ prevBtn222.addEventListener("click", () => {
         slideIcon222.classList.remove("active");
     });
 
-    slideNmner222--;
+    slideNumber222--;
     if(slideNmner222 < 0){
-        slideNmner222 = numberOfSlides222 - 1;
+        slideNumber222 = numberOfSlides222 - 1;
     }
 
-    slides222[slideNmner222].classList.add("active");
-    slideIcon222[slideNmner222].classList.add("active");
+    slides222[slideNumber222].classList.add("active");
+    slideIcon222[slideNumber222].classList.add("active");
 });
 
 //prv Btn
@@ -154,13 +156,13 @@ prevBtn222.addEventListener("click", () => {
                 slideIcon222.classList.remove("active");
             });
         
-            slideNmner222++;
-            if(slideNmner222 > (numberOfSlides222 - 1)){
-                slideNmner222 = 0;
+            slideNumber222++;
+            if(slideNumber222 > (numberOfSlides222 - 1)){
+                slideNumber222 = 0;
             }
         
-            slides222[slideNmner222].classList.add("active");
-            slideIcon222[slideNmner222].classList.add("active");  
+            slides222[slideNumber222].classList.add("active");
+            slideIcon222[slideNumber222].classList.add("active");  
         }, 3000);
     }
     repeater222();
@@ -189,7 +191,7 @@ const nextBtn333 = document.querySelector(".next-btn333");
 const slides333 = document.querySelectorAll(".slide333");
 const slideIcon333 = document.querySelectorAll(".slide-icon333");
 const numberOfSlides333 = slides333.length;
-var slideNmner333 = 0;
+var slideNumber333 = 0;
 
 // next Btn
 
@@ -201,13 +203,13 @@ nextBtn333.addEventListener("click", () => {
         slideIcon333.classList.remove("active");
     });
 
-    slideNmner333++;
-    if(slideNmner333 > (numberOfSlides333 - 1)){
-        slideNmner333 = 0;
+    slideNumber333++;
+    if(slideNumber333 > (numberOfSlides333 - 1)){
+        slideNumber333 = 0;
     }
 
-    slides333[slideNmner333].classList.add("active");
-    slideIcon333[slideNmner333].classList.add("active");
+    slides333[slideNumber333].classList.add("active");
+    slideIcon333[slideNumber333].classList.add("active");
 });
 
 // next Btn
@@ -222,13 +224,13 @@ prevBtn333.addEventListener("click", () => {
         slideIcon333.classList.remove("active");
     });
 
-    slideNmner333--;
-    if(slideNmner333 < 0){
-        slideNmner333 = numberOfSlides333 - 1;
+    slideNumber333--;
+    if(slideNumber333 < 0){
+        slideNumber333 = numberOfSlides333 - 1;
     }
 
-    slides333[slideNmner333].classList.add("active");
-    slideIcon333[slideNmner333].classList.add("active");
+    slides333[slideNumber333].classList.add("active");
+    slideIcon333[slideNumber333].classList.add("active");
 });
 
 //prv Btn
@@ -246,13 +248,13 @@ prevBtn333.addEventListener("click", () => {
                 slideIcon333.classList.remove("active");
             });
         
-            slideNmner333++;
-            if(slideNmner333 > (numberOfSlides333 - 1)){
-                slideNmner333 = 0;
+            slideNumber333++;
+            if(slideNumber333 > (numberOfSlides333 - 1)){
+                slideNumber333 = 0;
             }
         
-            slides333[slideNmner333].classList.add("active");
-            slideIcon333[slideNmner333].classList.add("active");  
+            slides333[slideNumber333].classList.add("active");
+            slideIcon333[slideNumber333].classList.add("active");  
         }, 3000);
     }
     repeater333();
