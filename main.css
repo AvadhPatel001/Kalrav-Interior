@@ -674,7 +674,7 @@
     top: 484vw;
     left: 50%;
     transform: translate(-50%);
-    width: 60%;
+    width: 100%;
   }
   #main_form_div h1{
     font-size: 4vw;
@@ -687,14 +687,19 @@
     text-align: center;
     margin-top: -1.2vw;
   }
-  #form_responce{
-    font-size: 2vw;
-    color: #103017;
-    margin-top: 7vw;
+  #notice{
+    font-size: 2.5vw;
+    width: 100%;
     text-align: center;
+    padding-top: 8vw;
   }
 
-
+  #contactForm{
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
   input, textarea {
     width: 100%;
@@ -724,3 +729,113 @@
   }
 
 /* form */
+
+/* Footer */
+
+  footer{
+    /* position: absolute;
+    top: 533vw;
+    left: 0; */
+    width: 100%;
+    background-color: #5B5A5A;
+  }
+
+  #main_footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* left */
+  #left{
+    width: 30%;
+    margin-left: 5vw;
+    margin-top: -2vw;
+  }
+  #left img{
+    width: 100%;
+    margin-left: -6vw;
+  }
+  #left h2{
+    font-size: 2.5vw;
+    color: #DDDDDD;
+    font-weight: normal;
+    margin-top: -1vw;
+  }
+  #icons{
+    display: flex;
+    margin-left: -1vw;
+  }
+  #icons img{
+    width: 10%;
+    margin: 1vw;
+  }
+
+  /* middle */
+  #middle{
+    width: 20%;
+  }
+  #middle a{
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 2vw;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+    margin: 4vw;
+  }
+
+  /* Right */
+  #right{
+    width: 30%;
+    margin-right: 5vw;
+  }
+  #right h2{
+    font-size: 4vw;
+    color: #DDDDDD;
+    text-decoration: underline;
+    margin-left: 1.5vw;
+  }
+  #right a{
+    text-decoration: none;
+  }
+  #right a div{
+    display: flex;
+    align-items: center;
+  }
+  #right a div img{
+    width: 6%;
+    height: fit-content;
+    padding: 2vw;
+  }
+  #right a div font{
+    color: #DDDDDD;
+    font-size: 2vw;
+  }
+
+
+  #wat_to_culture{
+    width: 30%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2vw;
+  }
+  #copyright_div{
+    background-color: #4F4E4E;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #copyright_div font{
+    font-size: 1.5vw;
+  }
+  #f1{
+    color: #FFFFFF;
+  }
+  #f2{
+    color: #C1C1C1;
+  }
+
+/* Footer */

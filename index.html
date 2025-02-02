@@ -7,6 +7,7 @@
     <!-- <link rel="icon" type="image/png" sizes="32x32" href="Images/kalrav_icon.png"> -->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
     <div class="frotIMG">
@@ -19,8 +20,8 @@
             <li><a href="#services">Services</a></li>
           </ul>
           <ul class="navbar-right">
-            <li><a href="#">Expertise</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#main_form_div">Contact</a></li>
           </ul>
         </nav>
 <!-- navbar -->
@@ -238,22 +239,84 @@
         <h1>Let's Discuss Your Project!</h1>
         <p>Fill this form and we will contact you!</p>
 
-        <form action="https://formsubmit.co/YOUR_EMAIL" method="POST" id="contactForm" >
+        <form onsubmit="sendEmail(event)" method="POST" id="contactForm" >
           <input type="text" placeholder="Your Name" id="your_name">
           <div class="error" id="nameError"></div>
 
-          <input type="email" placeholder="email" id="your_email">
+          <input type="email" placeholder="Your Email" id="your_email">
           <div class="error" id="emailError"></div>
-          <textarea name="message" id="your_message" placeholder="Your Message" rows="2.000"></textarea>
+          <textarea name="message" id="your_message" placeholder="Your Message" rows="2"></textarea>
           <div class="error" id="messageError"></div>
           
           <button type="submit">Submit</button>
         </form>
 
-        <h2 id="form_responce"></h2>
-      </div>
 
+        <p id="notice">For 1:1 meeting, contact me on this No. : +91 95866 41338</p>
+
+
+        <footer>
+          <div id="main_footer">
+            <div id="left">
+              <img src="Images/footer_logo.png" alt="Kalrav Interior">
+              <h2>social medial handles</h2>
+              <div id="icons">
+                <img src="Images/Footer Icon/instagram.png" alt="Instagram">
+                <img src="Images/Footer Icon/facebook.png" alt="Facebook">
+                <img src="Images/Footer Icon/whatsapp.png" alt="Whatsapp">
+                <img src="Images/Footer Icon/linkedin.png" alt="Linkedin">
+              </div>
+            </div>
+            
+            <div id="middle">
+              <a href="#statistics">About</a>
+              <a href="#services">Services</a>
+              <a href="#expertise">Expertise</a>
+              <a href="#main_form_div">Contact</a>
+            </div>
+  
+            <div id="right">
+              <h2>CONTACT</h2>
+              <a href="">
+                <div>
+                  <img src="Images/Footer Icon/location.png" alt="location">
+                  <font>Ahmedabad, Gujrat</font>
+                </div>
+              </a>
+  
+              <a href="">
+                <div>
+                  <img src="Images/Footer Icon/call.png" alt="call">
+                  <font>+91 95866 41338<br>+91 83473 42356</font>
+                </div>
+              </a>
+  
+              <a href="">
+                <div>
+                  <img src="Images/Footer Icon/email.png" alt="email">
+                  <font>kalravinterior@gmail.com</font>
+                </div>
+              </a>
+  
+            </div>
+          </div>
+          <img src="Images/Footer Icon/Way_To_Culture_FONT.png" alt="Way To Culture" id="wat_to_culture">
+  
+          <div id="copyright_div">
+            <font id="f1">Copyright &copy;2025 Kalrav Interior; Designed by</font>
+            <font id="f2">&nbsp;ALPHA TECH</font>
+          </div>
+        </footer>
+      </div>
+      
       <script type="text/javascript" src="form_validation.js"></script>
-<!-- form -->
-</body>
+
+      <!-- form -->
+      
+
+      <!-- Footer -->
+      
+      
+      <!-- Footer -->
+    </body>
 </html>
