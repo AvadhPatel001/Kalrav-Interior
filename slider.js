@@ -20,7 +20,7 @@ nextBtn111.addEventListener("click", () => {
         slideIcon111.classList.remove("active");
     });
 
-    slideNumner111++;
+    slideNumber111++;
     if(slideNumber111 > (numberOfSlides111 - 1)){
         slideNumber111 = 0;
     }
@@ -47,7 +47,7 @@ prevBtn111.addEventListener("click", () => {
     }
 
     slides111[slideNumber111].classList.add("active");
-    slideIcon111[slideNumber111].classList.add("active");
+    slideIcons111[slideNumber111].classList.add("active");
 });
 
 //prv Btn
@@ -133,7 +133,7 @@ prevBtn222.addEventListener("click", () => {
     });
 
     slideNumber222--;
-    if(slideNmner222 < 0){
+    if(slideNumber222 < 0){
         slideNumber222 = numberOfSlides222 - 1;
     }
 
